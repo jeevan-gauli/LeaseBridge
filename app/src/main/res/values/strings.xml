@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LeaseBridge</string>
+    <string name="owner_image_desc">Owner Image</string>
+    <string name="tenant_image_desc">Tenant Image</string>
 </resources>
