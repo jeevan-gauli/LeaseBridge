@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.LeaseBridge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">#00171F</item>
+        <item name="colorPrimaryVariant">#003459</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
 
-    <style name="Theme.LeaseBridge" parent="android:Theme.Material.Light.NoActionBar" />
+        <!-- TextInputLayout fixes -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
 </resources>
